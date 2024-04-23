@@ -1,0 +1,78 @@
+<!-- Problema -->
+ 
+Reclamações dos clientes e avaliação: 
+
+
+<!-- Requisistos Funcionais --> 
+
+-> Coletar e armazenar avaliações;
+-> O Sistema precisa ser prático; 
+-> A coleta será feita por um formulário;
+-> O Sistema deve oferecer visualização dos dados;
+-> Resposta sobre as avaliações;
+
+<!-- Formulario --> 
+
+   1. O serviço foi concluido no prazo? 
+
+	()Sim ()Nâo 
+
+
+   2. O prestador de serviço foi cordial no atendimento?
+        ()Sim ()Nâo 
+
+
+   3. Qual o graul de satisfação com a qualidade do serviço?
+	
+	()Ruim ()Bom ()Muito Bom ()Excelente
+
+
+   4. Qual a possibilidade de recomendar o nosso serviços? 
+	
+ 	()Nunca ()Talvez ()Sempre
+
+
+   5. Utilize o campo abaixo para algo que deseja manifestar e que não foi contemplado no formulário acima. 
+
+
+<!-- Entidades --> 
+
+Cliente
+Avaliações 
+Moderador 
+Perguntas
+Respostas 
+
+<!-- Atributos -->
+
+Cliente:
+	
+ + Id 
+ - Nome 
+ - E-mail
+ - Telefone
+ - CPF 
+
+Avaliações:
+
+ + id_avaliacao
+ * Id_cliente(fk)
+ - datetime
+ 
+Moderador:
+
+ +Id 
+ -Nome
+
+Perguntas:
+
+ +id_pergunta
+ -Enunciado
+
+Resposta:
+
+ +id_resposta
+ *Id_cliente(fk)
+ *id_pergunta(fk)
+ *id_avaliacao(fk)
+ -resposta
