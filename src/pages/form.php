@@ -25,7 +25,7 @@
 
         <div class="container">
 
-            <form action="" method="post">
+            <form action="salvar_form.php" method="post">
                 <div class="row mt-5">
 
 
