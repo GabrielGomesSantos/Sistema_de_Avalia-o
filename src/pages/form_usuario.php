@@ -28,24 +28,27 @@
             <form action="salvar_usuario.php" method="post">
                 <div class="row mt-5">
 
-
+                <div class="col-4 offset-4">
                     <h4>1) Qual o seu nome?</h4>
                     <div class="form-group">
                        <input type="text" class="form-control" id="name" placeholder="Insira seu nome" name="name" required>
                        <div class="valid-feedback">Valid.</div>
                        <div class="invalid-feedback">Please fill out this field.</div>
                     </div>
+                </div>
 
 
                 </div>
 
                 <div class="row mt-5">
 
-                    <h4>2) Qual o seu e-mail?</h4>
-                    <div class="form-group">
-                       <input type="text" class="form-control" id="email" placeholder="Insira seu email" name="email" required>
-                       <div class="valid-feedback">Valid.</div>
-                       <div class="invalid-feedback">Please fill out this field.</div>
+                    <div class="col-4 offset-4">
+                        <h4>2) Qual o seu e-mail?</h4>
+                        <div class="form-group">
+                           <input type="text" class="form-control" id="email" placeholder="Insira seu email" name="email" required>
+                           <div class="valid-feedback">Valid.</div>
+                           <div class="invalid-feedback">Please fill out this field.</div>
+                        </div>
                     </div>
 
 
@@ -53,22 +56,26 @@
 
                 <div class="row mt-5">
 
+                <div class="col-4 offset-4">
                     <h4>3) Qual o seu telefone?</h4>
                     <div class="form-group">
                        <input type="text" class="form-control" id="telefone" placeholder="Insira seu telefone" name="telefone" required>
                        <div class="valid-feedback">Valid.</div>
                        <div class="invalid-feedback">Please fill out this field.</div>
                     </div>
+                </div>
     
                 </div>
                 <div class="row mt-5">
 
+                <div class="col-4 offset-4">
                     <h4>4) Qual o seu CPF?</h4>
                     <div class="form-group">
                        <input type="text" class="form-control" id="CPF" placeholder="Insira seu cpf" name="CPF" required>
                        <div class="valid-feedback">Valid.</div>
                        <div class="invalid-feedback">Please fill out this field.</div>
                     </div>
+                </div>
 
 
                 </div>
