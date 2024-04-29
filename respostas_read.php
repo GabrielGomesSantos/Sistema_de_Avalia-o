@@ -73,6 +73,84 @@
                     </div>
                 </div>
             </div>
+            <div class="col-4" >
+                <div class="card mb-3" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Formulario de nome</h5>
+                        <p class="card-text"></p>
+                        <p class="d-inline-flex gap-1">
+                       
+                        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#idcliente" aria-expanded="false" aria-controls="collapseExample">
+                            mostrar respostas
+                        </button>
+                        </p>
+                        <div class="collapse mb-2" id="idcliente">
+                            <div class="card card-body">
+                                <h6>pergunta 1)</h6>
+                                <p>resposta_1_aqui</p>
+                                <h6>pergunta 2)</h6>
+                                <p>resposta_2_aqui</p>
+                                <h6>pergunta 3)</h6>
+                                <p>resposta_3_aqui</p>
+                                <h6>pergunta 4)</h6>
+                                <p>resposta_4_aqui</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4" >
+                <div class="card mb-3" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Formulario de nome</h5>
+                        <p class="card-text"></p>
+                        <p class="d-inline-flex gap-1">
+                       
+                        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#idcliente" aria-expanded="false" aria-controls="collapseExample">
+                            mostrar respostas
+                        </button>
+                        </p>
+                        <div class="collapse mb-2" id="idcliente">
+                            <div class="card card-body">
+                                <h6>pergunta 1)</h6>
+                                <p>resposta_1_aqui</p>
+                                <h6>pergunta 2)</h6>
+                                <p>resposta_2_aqui</p>
+                                <h6>pergunta 3)</h6>
+                                <p>resposta_3_aqui</p>
+                                <h6>pergunta 4)</h6>
+                                <p>resposta_4_aqui</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4" >
+                <div class="card mb-3" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Formulario de nome</h5>
+                        <p class="card-text"></p>
+                        <p class="d-inline-flex gap-1">
+                       
+                        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#idcliente" aria-expanded="false" aria-controls="collapseExample">
+                            mostrar respostas
+                        </button>
+                        </p>
+                        <div class="collapse mb-2" id="idcliente">
+                            <div class="card card-body">
+                                <h6>pergunta 1)</h6>
+                                <p>resposta_1_aqui</p>
+                                <h6>pergunta 2)</h6>
+                                <p>resposta_2_aqui</p>
+                                <h6>pergunta 3)</h6>
+                                <p>resposta_3_aqui</p>
+                                <h6>pergunta 4)</h6>
+                                <p>resposta_4_aqui</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             
           
            
