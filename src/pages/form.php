@@ -103,6 +103,19 @@
 
                 </div>
 
+                <div class="row mt-2">
+
+                  <div class="col-6 offset-3">
+
+                     <div class="form-group mt-3">
+                       <label for="opiniao" class="form-label"></label>
+                       <textarea class="form-control" id="opiniao" name="opiniao" placeholder="Digite aqui!" rows="5"></textarea>
+                       <div class="valid-feedback">Valid.</div>
+                       <div class="invalid-feedback">Please fill out this field.</div>
+                     </div>
+                  </div>
+              </div>
+
                 <div class="row mt-5 offset-5">
 
                     <div class="col-2"><button type="submit" class="btn btn-primary col-10 offset-1">Enviar</button></div>

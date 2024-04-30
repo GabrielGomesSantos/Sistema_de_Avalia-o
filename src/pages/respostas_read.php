@@ -60,8 +60,10 @@
                 echo '</div>';
                 echo '</div>';
                 echo '</div>';
+                
             }
         }
+        include ('accordion-test.php');
 
         ?>
 
