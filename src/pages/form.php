@@ -29,6 +29,7 @@
                 <div class="row mt-5">
 
 
+                    <div class="col mt-2 offset-3">
                     <h4>1) O serviço foi concluído no prazo?</h4>
                     <div class="form-check form-check-inline mt-2">
                         <input class="form-check-input" type="radio" name="prazo" id="inlineRadio1" value="0" require>
@@ -38,12 +39,14 @@
                       <input class="form-check-input" type="radio" name="prazo" id="inlineRadio2" value="1" require>
                       <label class="form-check-label" for="prazo">Não</label>
                     </div>
+                    </div>
 
 
                 </div>
 
                 <div class="row mt-5">
 
+                    <div class="col mt-2 offset-3">
                     <h4>2) O prestador de serviço foi cordial no atendimento?</h4>
                     <div class="form-check form-check-inline mt-2">
                         <input class="form-check-input" type="radio" name="cordial" id="inlineRadio1" value="0" require>
@@ -53,11 +56,13 @@
                       <input class="form-check-input" type="radio" name="cordial" id="inlineRadio2" value="1">
                       <label class="form-check-label" for="cordial">Não</label>
                     </div>
+                    </div>
 
                 </div>
 
                 <div class="row mt-5">
 
+                    <div class="col mt-2 offset-3">
                     <h4>3) Qual o grau de satisfação com a qualidade do serviço?</h4>
                     <div class="form-check form-check-inline mt-2">
                         <input class="form-check-input" type="radio" name="satisfacao" id="inlineRadio1" value="2" >
@@ -75,9 +80,12 @@
                       <input class="form-check-input" type="radio" name="satisfacao" id="inlineRadio2" value="5">
                       <label class="form-check-label" for="satisfacao">Excelente</label>
                     </div>
+                    </div>
+
                 </div>
                 <div class="row mt-5">
 
+                    <div class="col mt-2 offset-3">
                     <h4>4) Qual a possibilidade de recomendar nossos serviços?</h4>
                     <div class="form-check form-check-inline mt-2">
                         <input class="form-check-input" type="radio" name="retorno" id="inlineRadio1" value="6">
@@ -91,12 +99,13 @@
                         <input class="form-check-input" type="radio" name="retorno" id="inlineRadio1" value="8">
                         <label class="form-check-label" for="retorno">Sempre</label>
                     </div>
+                    </div>
 
                 </div>
 
-                <div class="row mt-5">
+                <div class="row mt-5 offset-5">
 
-                    <div class="col-2 offset-5"><button type="submit" class="btn btn-primary col-10 offset-1">Enviar</button></div>
+                    <div class="col-2"><button type="submit" class="btn btn-primary col-10 offset-1">Enviar</button></div>
 
                 </div>
                 
