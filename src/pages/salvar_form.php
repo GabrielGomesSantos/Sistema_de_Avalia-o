@@ -1,14 +1,12 @@
 <?php
     include('conexao.php');
     session_start();
-    print_r($_POST);
 
     $prg01 = $_POST['prazo'];
     $prg02 = $_POST['cordial'];
     $prg03 = $_POST['satisfacao'];
     $prg04 = $_POST['retorno'];
 
-    print($_SESSION['cpf']);
 
     $sql_verificar = "SELECT * FROM `cliente` WHERE cpf = {$_SESSION['cpf']}";
     $result = mysqli_query($conn, $sql_verificar);
@@ -32,7 +30,6 @@
     if (mysqli_num_rows($result) > 0) {
         // output data of each row
         while($row = mysqli_fetch_assoc($result)) {
-            print_r($row);
             $_SESSION['ID_AV'] = $row['id_avaliacao'];
         }
     }
@@ -47,4 +44,20 @@
     mysqli_query($conn, $sql_resposta_3);
     mysqli_query($conn, $sql_resposta_4);
 
+
+
+
 ?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Obrigado pelo feedback</h1>
+</body>
+</html>

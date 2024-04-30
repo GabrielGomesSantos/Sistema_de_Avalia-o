@@ -16,7 +16,7 @@
 
     if(mysqli_num_rows($result_verificar) > 0){
         // Se já existe, redireciona de volta para o formulário com uma mensagem de erro
-        header('Location: form.php');
+        header('Location:form.php');
         exit; // Encerra o script para evitar a execução do restante do código
     } else {
         // Se não existe, insere o novo cliente no banco de dados
