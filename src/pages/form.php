@@ -31,11 +31,11 @@
 
                     <h4>1) O serviço foi concluído no prazo?</h4>
                     <div class="form-check form-check-inline mt-2">
-                        <input class="form-check-input" type="radio" name="prazo" id="inlineRadio1" value="0">
+                        <input class="form-check-input" type="radio" name="prazo" id="inlineRadio1" value="0" require>
                         <label class="form-check-label" for="prazo">Sim</label>
                     </div>
                     <div class="form-check form-check-inline mt-2">
-                      <input class="form-check-input" type="radio" name="prazo" id="inlineRadio2" value="1">
+                      <input class="form-check-input" type="radio" name="prazo" id="inlineRadio2" value="1" require>
                       <label class="form-check-label" for="prazo">Não</label>
                     </div>
 
@@ -46,7 +46,7 @@
 
                     <h4>2) O prestador de serviço foi cordial no atendimento?</h4>
                     <div class="form-check form-check-inline mt-2">
-                        <input class="form-check-input" type="radio" name="cordial" id="inlineRadio1" value="0">
+                        <input class="form-check-input" type="radio" name="cordial" id="inlineRadio1" value="0" require>
                         <label class="form-check-label" for="cordial">Sim</label>
                     </div>
                     <div class="form-check form-check-inline mt-2">
@@ -60,7 +60,7 @@
 
                     <h4>3) Qual o grau de satisfação com a qualidade do serviço?</h4>
                     <div class="form-check form-check-inline mt-2">
-                        <input class="form-check-input" type="radio" name="satisfacao" id="inlineRadio1" value="2">
+                        <input class="form-check-input" type="radio" name="satisfacao" id="inlineRadio1" value="2" >
                         <label class="form-check-label" for="satisfacao">Ruim</label>
                     </div>
                     <div class="form-check form-check-inline mt-2">
